@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-url_following = "https://letterboxd.com/userName/following/"
-url_followers = "https://letterboxd.com/userName/followers/"
+url_following = "https://letterboxd.com/tyXD/following/"
+url_followers = "https://letterboxd.com/tyXD/followers/"
 
 def get_user_list(url):
     page = BeautifulSoup(requests.get(url).content, "lxml")
